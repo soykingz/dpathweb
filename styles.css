@@ -187,6 +187,23 @@ nav {
     margin-bottom: 40px;
 }
 
+@media (max-width: 1284px) {
+    #hero h1 {
+        font-size: 36px; /* Adjusted size for mobile */
+        margin-bottom: 15px;
+    }
+
+    #hero h2 {
+        font-size: 28px; /* Adjusted size for mobile */
+        margin-bottom: 15px;
+    }
+
+    #hero p {
+        font-size: 16px; /* Adjusted size for mobile */
+        margin-bottom: 30px;
+    }
+}
+
 .hero-btn {
     background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
     color: var(--white-color);
@@ -493,22 +510,4 @@ footer {
 
 [data-aos].aos-animate {
     opacity: 1;
-}
-
-/* Hero Content Styles for Mobile */
-@media (max-width: 768px) {
-    .hero-content h1 {
-        font-size: 36px; /* Reduce font size for the main heading */
-        margin-bottom: 15px; /* Adjust margin */
-    }
-
-    .hero-content h2 {
-        font-size: 24px; /* Reduce font size for the subheading */
-        margin-bottom: 15px; /* Adjust margin */
-    }
-
-    .hero-content p {
-        font-size: 16px; /* Reduce font size for the paragraph */
-        margin-bottom: 20px; /* Adjust margin */
-    }
 }
