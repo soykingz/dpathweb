@@ -494,3 +494,21 @@ footer {
 [data-aos].aos-animate {
     opacity: 1;
 }
+
+/* Hero Content Styles for Mobile */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 36px; /* Reduce font size for the main heading */
+        margin-bottom: 15px; /* Adjust margin */
+    }
+
+    .hero-content h2 {
+        font-size: 24px; /* Reduce font size for the subheading */
+        margin-bottom: 15px; /* Adjust margin */
+    }
+
+    .hero-content p {
+        font-size: 16px; /* Reduce font size for the paragraph */
+        margin-bottom: 20px; /* Adjust margin */
+    }
+}
