@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DPath.ai | Decentralized Pathology for Everyone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="images/dpath_icon.jpg" type="image/x-icon">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Library for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="images/dpath_logo_transparent.png" alt="DPath Logo">
+            </a>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#token">DPA Token</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-overlay">
+            <video autoplay muted loop id="hero-video">
+                <source src="pathology-background.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-content">
+            <h1 data-aos="fade-up">Decentralizing Pathology</h1>
+            <h2 data-aos="fade-up" data-aos-delay="200">Empowering Global Collaboration</h2>
+            <p data-aos="fade-up" data-aos-delay="400">Accessible, Accurate, and Secure Pathology Solutions for All</p>
+            <a href="#contact" class="btn hero-btn" data-aos="zoom-in" data-aos-delay="600">Join Us Today</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2 data-aos="fade-right">About DPath.ai</h2>
+            <p data-aos="fade-up">DPath.ai is pioneering a decentralized platform that connects pathologists, patients, researchers, and AI model developers worldwide. By leveraging blockchain and AI technologies, we create a transparent and fair ecosystem where contributions are fairly rewarded, and access to pathology services and data is democratized.</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <div class="container">
+            <h2 data-aos="fade-right">Our Products</h2>
+            <div class="products-grid">
+                <!-- Product: Synthetic Datasets -->
+                <div class="product-card" data-aos="flip-left">
+                    <div class="product-icon"><i class="fas fa-database"></i></div>
+                    <h3>Synthetic Datasets</h3>
+                    <p>High-quality synthetic pathology datasets generated for research and AI model training.</p>
+                </div>
+                <!-- Product: Annotation Datasets -->
+                <div class="product-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="product-icon"><i class="fas fa-tags"></i></div>
+                    <h3>Annotation Datasets</h3>
+                    <p>Expert-annotated datasets to enhance the accuracy of AI models.</p>
+                </div>
+                <!-- Product: AI Models -->
+                <div class="product-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="product-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Diagnostics Models</h3>
+                    <p>Tissue-specific pre-trained models and downstream models for diagnostics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 data-aos="fade-right">Our Services</h2>
+            <div class="services-grid">
+                <!-- Service: Slide Digitization -->
+                <div class="service-card" data-aos="zoom-in">
+                    <div class="service-icon"><i class="fas fa-camera"></i></div>
+                    <h3>Slide Digitization</h3>
+                    <p>Transform physical pathology slides into high-resolution digital images.</p>
+                </div>
+                <!-- Service: Teleconsultation -->
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service-icon"><i class="fas fa-video"></i></div>
+                    <h3>Teleconsultation</h3>
+                    <p>Connect with expert pathologists remotely for timely and accurate diagnoses.</p>
+                </div>
+                <!-- Service: AI Inference Service -->
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>AI Inference Service</h3>
+                    <p>Utilize our AI models to analyze pathology images and obtain a second opinion.</p>
+                </div>
+            </div>
+            <p class="payment-info" data-aos="fade-up">We accept payments via Stripe, Cryptocurrencies, and DPA Tokens.</p>
+        </div>
+    </section>
+
+    <!-- DPA Token Section -->
+    <section id="token">
+        <div class="container">
+            <h2 data-aos="fade-right">The DPA Token</h2>
+            <p data-aos="fade-up">DPA Tokens are created when new data, annotations, or AI models are uploaded and evaluated&validated by experts. Each token represents a fraction of ownership of the products and services offered on the platform, ensuring fair rewards to all contributors and fostering a collaborative ecosystem.</p>
+            <div class="token-details">
+                <div class="token-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-upload"></i>
+                    <h3>Contribute & Earn</h3>
+                    <p>Upload data, make annotations, develop AI models, and offer teleconsultation services to earn DPA tokens representing your ownership and contribution.</p>
+                </div>
+                <div class="token-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h3>Fair Rewards</h3>
+                    <p>Receive equitable rewards through token ownership, promoting a fair distribution among all contributors.</p>
+                </div>
+                <div class="token-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Trade and Buyback</h3>
+                    <p>Trade your tokens on the DPath.ai internal market and participate in our buyback program to redeem your tokens for fiat or cryptocurrencies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#" class="logo">
+                    <img src="./images/dpath_logo_transparent.png" alt="DPath Logo">
+                </a>
+                <p>© 2024 DPath.ai. All rights reserved.</p>
+            </div>
+            <!-- <div class="footer-right">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div> -->
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- AOS Library for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+</html>
