@@ -22,7 +22,10 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     color: var(--text-color);
     background-color: var(--light-color);
     overflow-x: hidden;
@@ -454,7 +457,7 @@ section h2 {
 
 /* Footer Styling */
 footer {
-    background: #C1C2C1; /* Background color from the image */
+    background: #dedeff; /* Background color from the image */
     color: #333333; /* Dark text color */
     padding: 20px 0;
 }
