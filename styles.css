@@ -245,8 +245,11 @@ section h2 {
 #about p {
     font-size: 18px;
     line-height: 1.6;
+    margin-bottom: 30px;
 }
-
+#about p:last-child {
+    margin-bottom: 0; /* Remove margin from the last paragraph */
+}
 /* Products Section */
 #products {
     background: linear-gradient(to bottom right, var(--light-color), #fff);
